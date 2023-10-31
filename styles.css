@@ -1,0 +1,187 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #8A2BE2; /* Violet */
+    color: #FFFFFF; /* Texto branco */
+    margin: 0;
+}
+
+header {
+    background: linear-gradient(135deg, #8A2BE2, #FF69B4); /* Gradiente de roxo para magenta */
+    padding: 20px;
+    color: #FFFFFF; /* Texto branco */
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2); /* Sombra sutil */
+}
+
+h1 {
+    font-size: 28px; /* Tamanho maior para o título */
+    color: #FFA500; /* Laranja */
+}
+
+nav ul {
+    background-color: #8A2BE2; /* Violet */
+    padding: 10px;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: #FFD700; /* Gold */
+    text-decoration: none;
+    font-weight: bold;
+}
+
+main {
+    padding: 20px;
+}
+
+section {
+    margin: 20px 0;
+    background-color: #FFFFFF; /* White */
+    padding: 20px;
+    border-radius: 10px;
+}
+
+h2 {
+    color: #8A2BE2; /* Violet */
+}
+
+.resumo-item {
+    text-align: center;
+    margin: 20px;
+}
+
+h3 {
+    color: #8A2BE2; /* Violet */
+}
+
+#performanceMensal, #negociacoesBemSucedidas {
+    font-size: 24px;
+    color: #FFD700; /* Gold */
+}
+
+details {
+    margin: 20px 0;
+}
+
+summary {
+    color: #8A2BE2; /* Violet */
+    font-weight: bold;
+}
+
+canvas {
+    width: 61%;
+}
+
+input[type="number"] {
+    width: 80px;
+}
+
+button {
+    background-color: #8A2BE2; /* Violet */
+    color: #FFD700; /* Gold */
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #FFD700; /* Gold */
+    color: #8A2BE2; /* Violet */
+}
+
+textarea {
+    width: 80%;
+    height: 110px;
+    padding: 10px;
+}
+
+#salvar {
+    background-color: #8A2BE2; /* Violet */
+    color: #FFD700; /* Gold */
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.historico ul {
+    list-style: none;
+}
+
+.historico li {
+    margin: 10px 0;
+}
+
+#grafico {
+    text-align: center;
+}
+
+.simulacao label {
+    margin: 0 10px;
+}
+
+.simulacao input[type="number"] {
+    width: 60px;
+}
+
+#adicionar-metas, #simular {
+    background-color: #8A2BE2; /* Violet */
+    color: #FFD700; /* Gold */
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.grafico-container {
+    margin: 20px 0;
+}
+
+.metas p {
+    margin: 10px 0;
+}
+
+.meta-label {
+    font-weight: bold;
+}
+
+.indicadores {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.indicador {
+    background-color: #8A2BE2; /* Violet */
+    color: #FFD700; /* Gold */
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin: 10px;
+}
+
+.indicador:hover {
+    background-color: #FFD700; /* Gold */
+    color: #8A2BE2; /* Violet */
+}
+
+#cura-meta, #recovery-meta {
+    border: 2px solid #FFA500; /* Borda laranja para destacar */
+}
+
+.p-meta {
+    font-weight: bold;
+    color: #8A2BE2; /* Violet do Nubank */
+}
+
+#cura-meta-text, #recovery-meta-text, #media-atual-text {
+    color: #FF69B4; /* Magenta do Nubank */
+}
+
+.selected-indicator {
+    background-color: #FFD700; /* Gold */
+    color: #8A2BE2; /* Violet */
+    font-weight: bold;
+}
+
